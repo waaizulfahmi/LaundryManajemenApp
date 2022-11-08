@@ -1,4 +1,8 @@
 # LaundryManajemenApp
 Tugas Kelompok Project 
-contoh saja
+List Fitur :
+1. Login Admin & User 
+2. CRUD Transaksi 
+
+
 
