@@ -1,0 +1,145 @@
+.centered {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+.centered2 {
+    position: absolute;
+    top: 27%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+.centered3 {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.centered4{
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+  .container2 {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  .nav-link{
+    transition: transform .2s;
+  }
+  .nav-link:hover {
+    transform: scale(1.2);
+  }
+
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 100%;
+    height:0;
+    transition: .5s ease;
+  }
+  
+  .container:hover .overlay {
+    bottom: 0;
+    height: 100%;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+
+  .multi_step_form{
+    /* background: #f6f9fb; */
+    display: block;
+    overflow: hidden;
+}
+
+#msform {
+    text-align: center;
+    position: relative;
+    padding-top: 50px;
+    min-height: 150px;  
+    max-width: 810px;
+    margin: 0 auto;
+    /* background: #f8f9fa !important; */
+    z-index: 1; 
+}
+
+#progressbar {
+    margin-bottom: 30px;
+    overflow: hidden;  
+    
+} 
+
+.multi_step_form li {
+    list-style-type: none !important;
+    color: #99a2a8;   
+    font-size: 20px;
+    width: calc(100%/5);
+    float: left;
+    position: relative; 
+    font: 500 13px/1 sans-serif; 
+}
+
+.multi_step_form li:nth-child(2)::before{content: "\f00c";}
+.multi_step_form li:nth-child(3)::before{content: "\f00c";}
+
+.multi_step_form li:before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f00c";
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    display: block; 
+    background: #d6dfe3;
+    border-radius: 50%;
+    margin: 0 auto 10px auto;
+    } 
+
+.multi_step_form li:after {
+        content: '';
+        width: 100%;
+        height: 10px;
+        background: #cdd2d5;
+        position: absolute;
+        left: -50%;
+        top: 21px;
+        z-index: -1; 
+    } 
+
+.multi_step_form li:last-child:after{width: 150%;}
+.multi_step_form li.active{
+        color: #5cb85c;
+    }
+    
+.multi_step_form li.active:before, li.active:after{
+        background: #5cb85c;
+        color: white;
+    }
