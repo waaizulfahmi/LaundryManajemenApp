@@ -1,7 +1,0 @@
-credit layanan1 : Photo by <a href="https://unsplash.com/@waldemarbrandt67w?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Waldemar Brandt</a> on <a href="https://unsplash.com/s/photos/laundry?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-
-logo rupiah :
-<div> Icons made by <a href="https://www.flaticon.com/authors/fk-studio" title="Fk Studio"> Fk Studio </a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com'</a></div>
-
-logo clean : 
-<a href="https://www.flaticon.com/free-icons/clean" title="clean icons">Clean icons created by smalllikeart - Flaticon</a>
