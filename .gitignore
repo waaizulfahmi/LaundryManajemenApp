@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 69fae6154ea7df74e2b1cfa5b7ef145f9aa6a9c5
 .DS_Store
 
 application/cache/*
@@ -29,3 +33,9 @@ user_guide_src/cilexer/pycilexer.egg-info/*
 *.sublime-project
 /tests/tests/
 /tests/results/
+<<<<<<< HEAD
+=======
+=======
+node_modules
+>>>>>>> 3869e92c297d3e52982a6daabbc47c68c60bdb6e
+>>>>>>> 69fae6154ea7df74e2b1cfa5b7ef145f9aa6a9c5
