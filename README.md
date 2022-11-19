@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <h1 align="center"> Sistem Informasi Laundry Codeigniter</h1>
 
 
@@ -70,3 +71,13 @@ Software yang diperlukan untuk menjalankan aplikasi ini adalah
 
 ## Kontak
 danyadhi4149@gmail.com
+=======
+# LaundryManajemenApp
+Tugas Kelompok Project 
+List Fitur :
+1. Login Admin & User 
+2. CRUD Transaksi 
+
+
+
+>>>>>>> 3869e92c297d3e52982a6daabbc47c68c60bdb6e
